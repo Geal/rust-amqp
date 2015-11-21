@@ -27,6 +27,7 @@ log = "0.3"
 url = "0.2"
 
 [dependencies.openssl]
-version = "~0.7"
+#version = "~0.7"
+git = "https://github.com/Geal/rust-openssl"
 optional = true
 features = ["tlsv1_1", "tlsv1_2"]
